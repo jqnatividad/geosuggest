@@ -43,3 +43,6 @@ reqwest = { version = "0.12", features = [
 tokio = { version = "1", features = ["macros", "net", "rt-multi-thread"] }
 futures = "0.3"
 clap = { version = "4.5", features = ["derive"] }
+
+[patch.crates-io]
+kiddo = { git = "https://github.com/jqnatividad/kiddo.git", branch = "bump-cmov-as-part-of-security-response" }
